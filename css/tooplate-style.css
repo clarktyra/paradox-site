@@ -309,7 +309,14 @@ a {
 	max-width: 100%;
 	overflow: hidden;
 }
+#p4 .right-image {
+  padding-bottom: 40px;
+}
 
+#p4 .right-image img {
+	max-width: 100%;
+	overflow: hidden;
+}
 #p2 .title {
 	font-size: 15px;
 	font-family: 'Montserrat', sans-serif;
@@ -432,7 +439,9 @@ a {
 }
 
 #p4 .right-info {
-	background-color: #fff;
+  background-image: url("../img/Screen Shot 2019-11-30 at 2.33.01 PM.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 	padding: 30px;
 	color: #343434;
 	text-align: left;
